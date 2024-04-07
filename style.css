@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(31, 68, 116), rgb(66, 31, 116));
+    padding: 10px;
+}
+
+.todo-app{
+    background: white;
+    width: 60vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin: 35px auto 70px; /* top right/left  bottom */
+    padding: 30px 20px 35px;
+}
+
+.add{
+    
+}
+
+input{
+    border: none;
+    background: rgb(180, 180, 180);
+    border-radius: 30px;
+}
+
+button{
+    border-radius: 30px;
+    cursor: pointer;
+    background: rgba(111, 30, 0, 0.573);
+    color: white;
+    width: 60px;
+    border: none;
+}
